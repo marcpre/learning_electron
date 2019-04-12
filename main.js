@@ -20,7 +20,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
-
+  // mainWindow.loadURL('www.google.com')
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 
@@ -32,6 +32,26 @@ function createWindow () {
     mainWindow = null
   })
 }
+
+// set app icon badge count
+app.setBadgeCount(22)
+
+// get filesystem paths
+console.log(app.getPath('desktop'))
+console.log(app.getPath('music'))
+console.log(app.getPath('temp'))
+console.log(app.getPath('userData'))
+
+app.on('browser-window-blur', (e) => {
+  console.log("App is out of focus")
+  // setTimeout(app.quit, 3000)
+  // e.preventDefault()
+})
+
+app.on('browser-window-focus', (e) => {
+  console.log("App is in focus")
+  // e.preventDefault()
+})
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.

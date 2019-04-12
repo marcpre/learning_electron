@@ -50,8 +50,17 @@ $ npm install --save-dev devtron
 // You should now see a Devtron tab added to the DevTools
 ```
 
+## Electron API
+
+### API: Main Process
+
+`electron.app` controls the event's lifecycle
 
 
 
 
----> Stopped at 03/01 
+
+
+
+
+---> Stopped at 03/03
