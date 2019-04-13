@@ -56,11 +56,10 @@ $ npm install --save-dev devtron
 
 `electron.app` controls the event's lifecycle
 
+`electron.BrowserWindow` Frameless Window
 
 
 
 
 
-
-
----> Stopped at 03/03
+---> Stopped at 03/06
