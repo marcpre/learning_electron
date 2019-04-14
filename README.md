@@ -50,6 +50,10 @@ $ npm install --save-dev devtron
 // You should now see a Devtron tab added to the DevTools
 ```
 
+## Save window state in electron
+
+Use the package `electron-window-state`
+
 ## Electron API
 
 ### API: Main Process
@@ -58,8 +62,10 @@ $ npm install --save-dev devtron
 
 `electron.BrowserWindow` Frameless Window
 
+`electron.BrowserWindow.webContents`
 
 
 
 
----> Stopped at 03/06
+
+---> Stopped at 03/08
