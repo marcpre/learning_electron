@@ -64,8 +64,12 @@ Use the package `electron-window-state`
 
 `electron.BrowserWindow.webContents`
 
+`sessions` is used to store cookies, local data
+
+`sessions.cookies` we can store data within cookies, useful for user data or app state
 
 
 
 
----> Stopped at 03/08
+
+---> Stopped at 03/10
