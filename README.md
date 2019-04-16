@@ -68,8 +68,10 @@ Use the package `electron-window-state`
 
 `sessions.cookies` we can store data within cookies, useful for user data or app state
 
+`sessions.downloadItem` starts a file download
+
+`dialog`, presents the user a specific dialog option
 
 
 
-
----> Stopped at 03/10
+---> Stopped at 03/12
