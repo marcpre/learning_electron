@@ -72,6 +72,9 @@ Use the package `electron-window-state`
 
 `dialog`, presents the user a specific dialog option
 
+`Accelerator & global shortcuts` are basically keyboard shortcuts for the user
+
+`Menu` allows to create main menues and context menues
 
 
----> Stopped at 03/12
+---> Stopped at 03/14
