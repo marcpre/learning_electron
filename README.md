@@ -76,5 +76,17 @@ Use the package `electron-window-state`
 
 `Menu` allows to create main menues and context menues
 
+`Context Menu` create a context menu
 
----> Stopped at 03/14
+`Tray` electron allows us to have our app part of the tray
+
+`powerMonitor` allows us to react to changes in the power state
+
+## IPC Process
+
+* Inter Process Communication
+* Used to talk from the cipc lient with the server side
+
+
+
+---> Stopped at 05/01
