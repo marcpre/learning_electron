@@ -87,6 +87,12 @@ Use the package `electron-window-state`
 * Inter Process Communication
 * Used to talk from the cipc lient with the server side
 
+# Renderer Process API
+
+* `remote` electron module
+* `BrowserWindowProxy` is a way to access a newly created browser window
 
 
----> Stopped at 05/01
+
+
+---> Stopped at 05/03
