@@ -26,7 +26,11 @@ Download `https://github.com/electron/electron-quick-start` and run `npm install
 ### Windows
 
 1. Install electron locally: `npm install electron`
-2. Install windows build tools with admin rights (CMD or): `npm install --global --production windows-build-tools`
+2. Install windows build tools with admin rights (CMD or): 
+
+    `npm install --global --production windows-build-tools`
+    `npm install --global --production windows-build-tools@4.0.0`
+    
 3. Set Path variable for python: 
 
 ```
