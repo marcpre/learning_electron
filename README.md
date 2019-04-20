@@ -91,8 +91,7 @@ Use the package `electron-window-state`
 
 * `remote` electron module
 * `BrowserWindowProxy` is a way to access a newly created browser window
-
-
+* `Webview` is a browser window in a page
 
 
 ---> Stopped at 05/03
