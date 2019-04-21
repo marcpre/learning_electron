@@ -99,5 +99,11 @@ Use the package `electron-window-state`
 * `BrowserWindowProxy` is a way to access a newly created browser window
 * `Webview` is a browser window in a page
 
+# API:Shared
 
----> Stopped at 06/01
+* `Process`, exists for any node process
+* `Screen`, allows us to get specific info about user screen sizes and layouts
+
+
+
+---> Stopped at 06/03
