@@ -26,7 +26,11 @@ Download `https://github.com/electron/electron-quick-start` and run `npm install
 ### Windows
 
 1. Install electron locally: `npm install electron`
-2. Install windows build tools with admin rights (CMD or): `npm install --global --production windows-build-tools`
+2. Install windows build tools with admin rights (CMD or): 
+
+    `npm install --global --production windows-build-tools`
+    `npm install --global --production windows-build-tools@4.0.0`
+    
 3. Set Path variable for python: 
 
 ```
@@ -38,6 +42,8 @@ Download `https://github.com/electron/electron-quick-start` and run `npm install
 5. `electron-rebuild -w <node-package>`, where <node-package> is f.ex.: bcrypt
 6. Finished! Now you can install native node modules!
 
+If error try:
+1. `npm install --msvs_version=2017`
 
 ## Install devtron
 
