@@ -94,4 +94,4 @@ Use the package `electron-window-state`
 * `Webview` is a browser window in a page
 
 
----> Stopped at 05/03
+---> Stopped at 06/01
