@@ -103,7 +103,8 @@ Use the package `electron-window-state`
 
 * `Process`, exists for any node process
 * `Screen`, allows us to get specific info about user screen sizes and layouts
+* `Shell` allows us to open/close/delete files
+* `nativeImage` allows us to manipulate images
 
 
-
----> Stopped at 06/03
+---> Stopped at 07/01
