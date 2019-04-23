@@ -105,6 +105,12 @@ Use the package `electron-window-state`
 * `Screen`, allows us to get specific info about user screen sizes and layouts
 * `Shell` allows us to open/close/delete files
 * `nativeImage` allows us to manipulate images
+* `clipboard` allows us to copy/paste text via selection
+* Offscreen Rendering: Allows us render f.ex.: link off the screen
+* Network Detection: Uses HTML5 APIs to detect if a user is offline/online
+* Battery Status: Getting deeper information about the battery status of the device 
 
 
----> Stopped at 07/01
+
+
+---> Stopped at 08/01
