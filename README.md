@@ -110,6 +110,13 @@ Use the package `electron-window-state`
 * Network Detection: Uses HTML5 APIs to detect if a user is offline/online
 * Battery Status: Getting deeper information about the battery status of the device 
 
+# Distribution
+
+* Use `electron-builder` to build the app -> Can create a workflow for building
+* `electron-builder build -m zip` --> build for MAC
+
+
+
 
 
 
