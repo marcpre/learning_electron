@@ -114,10 +114,10 @@ Use the package `electron-window-state`
 
 * Use `electron-builder` to build the app -> Can create a workflow for building
 * `electron-builder build -m zip` --> build for MAC
+* Code Signing is used to check that the app was created by you
 
 
 
 
 
-
----> Stopped at 08/01
+---> Stopped at 08/04
