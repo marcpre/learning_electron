@@ -115,11 +115,11 @@ Use the package `electron-window-state`
 * Use `electron-builder` to build the app -> Can create a workflow for building
 * `electron-builder build -m zip` --> build for MAC
 * Code Signing is used to check that the app was created by you
-* Publish Releases via github
+* Publish/Update Releases via github
     * Use "Release"-Tab on Github
     * Create GH token and publish via `electron-builder`
+    * Use `electron-updater` from electron framework
 
 
 
-
----> Stopped at 09/05
+---> Stopped at 09/06
