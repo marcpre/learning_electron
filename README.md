@@ -31,6 +31,108 @@ Download `https://github.com/electron/electron-quick-start` and run `npm install
     `npm install --global --production windows-build-tools`
     `npm install --global --production windows-build-tools@4.0.0`
     
+```
+C:\Users\admin\AppData\Roaming\npm\npx -> C:\Users\admin\AppData\Roaming\npm\node_modules\npm\bin\npx-cli.js
+
+> windows-build-tools@5.1.0 postinstall C:\Users\admin\AppData\Roaming\npm\node_modules\windows-build-tools
+> node ./dist/index.js
+
+
+
+Downloading vs_BuildTools.exe
+[>                                            ] 0.0% (0 B/s)
+Downloaded vs_BuildTools.exe. Saved to C:\Users\admin\.windows-build-tools\vs_BuildTools.exe.
+
+Starting installation...
+Launched installers, now waiting for them to finish.
+This will likely take some time - please be patient!
+
+Status from the installers:
+---------- Visual Studio Build Tools ----------
+Successfully installed Visual Studio Build Tools.
+------------------- Python --------------------
+Python 2.7.15 is already installed, not installing again.
+
+Now configuring the Visual Studio Build Tools..
+
+All done!
+
++ windows-build-tools@4.0.0
++ npm@6.9.0
++ windows-build-tools@5.1.0
++ install@0.12.2
+added 306 packages from 148 contributors, removed 442 packages and updated 47 packages in 331.586s
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> npm install --global --production windows-build-tools npm install --global --production windows-
+build-tools@4.0.0
+C:\Users\admin\AppData\Roaming\npm\npm -> C:\Users\admin\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+C:\Users\admin\AppData\Roaming\npm\npx -> C:\Users\admin\AppData\Roaming\npm\node_modules\npm\bin\npx-cli.js
+
+> windows-build-tools@4.0.0 postinstall C:\Users\admin\AppData\Roaming\npm\node_modules\windows-build-tools
+> node ./dist/index.js
+
+
+
+Downloading BuildTools_Full.exe
+[>                                            ] 0.0% (0 B/s)
+Downloaded BuildTools_Full.exe. Saved to C:\Users\admin\.windows-build-tools\BuildTools_Full.exe.
+
+Starting installation...
+Launched installers, now waiting for them to finish.
+This will likely take some time - please be patient!
+
+Status from the installers:
+---------- Visual Studio Build Tools ----------
+Successfully installed Visual Studio Build Tools.
+------------------- Python --------------------
+Python 2.7.15 is already installed, not installing again.
+
+Now configuring the Visual Studio Build Tools..
+
+All done!
+
++ install@0.12.2
++ windows-build-tools@5.1.0
++ windows-build-tools@4.0.0
++ npm@6.9.0
+removed 1 package and updated 7 packages in 285.181s
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> npm install --global --production windows-build-tools npm install --global --production windows-
+build-tools@4.0.0
+C:\Users\admin\AppData\Roaming\npm\npm -> C:\Users\admin\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+C:\Users\admin\AppData\Roaming\npm\npx -> C:\Users\admin\AppData\Roaming\npm\node_modules\npm\bin\npx-cli.js
+
+> windows-build-tools@5.1.0 postinstall C:\Users\admin\AppData\Roaming\npm\node_modules\windows-build-tools
+> node ./dist/index.js
+
+
+
+Downloading vs_BuildTools.exe
+[>                                            ] 0.0% (0 B/s)
+Downloaded vs_BuildTools.exe. Saved to C:\Users\admin\.windows-build-tools\vs_BuildTools.exe.
+
+Starting installation...
+Launched installers, now waiting for them to finish.
+This will likely take some time - please be patient!
+
+Status from the installers:
+---------- Visual Studio Build Tools ----------
+Successfully installed Visual Studio Build Tools.
+------------------- Python --------------------
+Python 2.7.15 is already installed, not installing again.
+
+Now configuring the Visual Studio Build Tools..
+
+All done!
+
++ install@0.12.2
++ windows-build-tools@4.0.0
++ windows-build-tools@5.1.0
++ npm@6.9.0
+added 1 package from 1 contributor and updated 7 packages in 116.847s
+PS C:\WINDOWS\system32>
+```
+    
 3. Set Path variable for python: 
 
 ```
