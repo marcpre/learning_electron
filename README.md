@@ -142,6 +142,8 @@ PS C:\WINDOWS\system32>
 
 4. Install `npm i -g electron-rebuild`
 5. `electron-rebuild -w <node-package>`, where <node-package> is f.ex.: bcrypt
+5.1. `electron-rebuild -w sqlite3 -p --version 4.1.4` specify the electron (4.1.4) version
+    
 6. Finished! Now you can install native node modules!
 
 If error try:
